@@ -26,3 +26,6 @@ Thumbs.db
 
 # MLflow
 mlruns/
+
+# Dashboard Power BI (demasiado grande para GitHub)
+dashboard/*.pbix
