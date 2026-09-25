@@ -1,0 +1,28 @@
+# Dataset
+data/raw/
+data/processed/
+
+# Modelo
+models/*.pkl
+
+# Entorno virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
