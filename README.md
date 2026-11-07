@@ -111,6 +111,12 @@ pip install -r requirements.txt
 ### Importancia SHAP
 ![SHAP](reports/figures/09_shap_importancia.png)
 
+## Dashboard Power BI
+
+El archivo `.pbix` no se incluye por tamaño (126 MB). Versión exportada del dashboard:
+
+[Ver dashboard en PDF](reports/fraud_dashboard.pdf)
+
 ## Stack tecnológico
 
 | Herramienta | Uso |
@@ -131,9 +137,3 @@ pip install -r requirements.txt
 
 - **Parte 1 — Data Analyst:** Python · DuckDB · Power BI
 - **Parte 2 — Data Scientist:** Python · LightGBM · SMOTE · SHAP
-
-## Dashboard Power BI
-
-El archivo `.pbix` no se incluye por tamaño (126 MB). Versión exportada del dashboard:
-
-[Ver dashboard en PDF](reports/fraud_dashboard.pdf)
