@@ -70,6 +70,10 @@ pip install -r requirements.txt
 | Monto mediano fraude | €9.25 |
 | Componentes más discriminantes | V4, V14, V3, V17 |
 
+## Informe
+
+[Informe completo en PDF](reports/Fraud_Detection_Report.pdf)
+
 ### Modelo final — LightGBM
 
 | Métrica | Valor |
