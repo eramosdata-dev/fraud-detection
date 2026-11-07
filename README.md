@@ -6,22 +6,22 @@ estándares MLOps de producción.
 
 ## Estructura del proyecto
 
+```
 fraud-detection/
 ├── data/
-│ ├── raw/ <- Dataset original de Kaggle (no incluido)
-│ └── processed/ <- Datos procesados generados por los notebooks
+│   ├── raw/                  <- Dataset original de Kaggle (no incluido)
+│   └── processed/            <- Datos procesados (generados por los notebooks)
 ├── sql/
-│ └── 01_fraud_analysis.sql <- Queries de análisis con DuckDB
+│   └── 01_fraud_analysis.sql <- Queries de análisis con DuckDB
 ├── notebooks/
-│ ├── 01_DA_EDA.ipynb <- Parte 1: Análisis exploratorio
-│ └── 02_DS_FraudModel.ipynb <- Parte 2: Modelo LightGBM + SHAP
-├── dashboard/
-│ └── fraud_detection_dashboard.pbix <- Dashboard Power BI
-├── models/
-│ └── fraud_model.pkl <- Modelo entrenado
+│   ├── 01_DA_EDA.ipynb       <- Parte 1: Análisis exploratorio
+│   └── 02_DS_FraudModel.ipynb <- Parte 2: Modelo LightGBM + SHAP
+├── dashboard/                <- El .pbix no se incluye (pesa 126 MB)
+├── models/                   <- El modelo .pkl se genera al ejecutar el notebook 02
 ├── reports/
-│ └── figures/ <- Gráficos generados
+│   └── figures/              <- Gráficos generados
 └── README.md
+```
 
 ## Dataset
 
